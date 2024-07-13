@@ -456,7 +456,7 @@
                     <ul class="clients-list has-scrollbar">
 
                         <li class="clients-item">
-                            <a href="https://www.microsoft.com/">
+                            <a href="https://www.microsoft.com/" class="no">
                                 <img src="./assets/images/logo-1-color.png" alt="microsoft">
                             </a>
                         </li>
@@ -494,6 +494,20 @@
                     </ul>
 
                 </section>
+
+                <style>
+                    .clients-item a {
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* Убирает подсветку при нажатии на ссылку на устройствах на базе WebKit */
+}
+
+.clients-item a:focus,
+.clients-item a:active {
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* Убирает подсветку при фокусировке и активации */
+}
+    
+                </style>
 
             </article>
 
@@ -1164,7 +1178,5 @@
   -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
 </body>
-
 </html>
