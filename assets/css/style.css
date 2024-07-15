@@ -868,6 +868,22 @@ main {
  * skills 
  */
 
+.skill-icon {
+    margin-right: 10px;
+    /* Отступ справа от иконки */
+    vertical-align: middle;
+    /* Вертикальное выравнивание иконки с текстом */
+    color: hsl(45, 100%, 72%);
+    /* Цвет иконки */
+}
+
+.title-wrapper {
+    display: flex;
+    /* Используем flexbox для выравнивания элементов */
+    align-items: center;
+    /* Выравниваем элементы по центру по вертикали */
+}
+
 .skills-title {
     margin-bottom: 20px;
 }
